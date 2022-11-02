@@ -84,14 +84,14 @@ This guide uses the OpenVINO™ Model Downloader to get pre-trained models. You 
      omz_info_dumper --print_all
   ```
 
-* Use `grep` to list models that have a specific name pattern
+* Use `grep` to list models that have a specific name pattern (e.g. `ssd-mobilenet`, `yolo`)
   ``` sh
      omz_info_dumper --print_all | grep <model_name>
   ```
 
 * Use Model Downloader to download models.
 
-  This guide uses `<models_dir>` and `<models_name>` as placeholders for the models directory and model name:
+  This guide uses `<models_dir>` and `<model_name>` as placeholders for the models directory and model name:
   ``` sh
      omz_downloader --name <model_name> --output_dir <models_dir>
   ```
@@ -238,7 +238,7 @@ Generic Model Optimizer script:
    mo --input_model <model_dir>/<model_file> --data_type <model_precision> --output_dir <ir_dir>
 ```
 
-IR files produced by the script are written to the <ir_dir> directory.
+IR files produced by the script are written to the `<ir_dir>` directory.
 
 The command with most placeholders filled in and FP16 precision:
 
