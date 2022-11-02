@@ -35,7 +35,7 @@ If you have not yet installed and configured OpenVINO Runtime, see the following
 
 ### Install OpenVINO Development Tools
 
-To install OpenVINO Development Tools, visit the <a href="openvino_docs_install_guides_install_dev_tools.html>installation guide</a> and follow the instructions for C++ developers. The code for the example on this page uses the `googlenet-v1` model from the Caffe framework. When you get to Step 4 of the installation guide, issue the following command to install OpenVINO with the Caffe requirements:
+To install OpenVINO Development Tools, visit the <a href="openvino_docs_install_guides_install_dev_tools.html">installation guide</a> and follow the instructions for C++ developers. The code for the example on this page uses the `googlenet-v1` model from the Caffe framework. When you get to Step 4 of the installation guide, issue the following command to install OpenVINO with the Caffe requirements:
 
 ``` sh
    pip install openvino-dev[caffe]
@@ -62,23 +62,6 @@ To build OpenVINO samples:
 
 @endsphinxdirective
 
-To build OpenVINO demos:
-
-@sphinxdirective
-
-.. tab:: Linux
-
-   Go to :doc:`Open Model Zoo Demos page <omz_demos>` and see the "Build the Demo Applications on Linux" section.
-
-.. tab:: Windows
-
-   Go to :doc:`Open Model Zoo Demos page <omz_demos>` and see the "Build the Demo Applications on Microsoft Windows OS" section.
-
-.. tab:: macOS
-
-   Go to :doc:`Open Model Zoo Demos page <omz_demos>` and see the "Build the Demo Applications on Linux*" section. You can use the requirements from "To build OpenVINO samples" above and adapt the Linux build steps for macOS.
-
-@endsphinxdirective
 
 ## <a name="download-models"></a> Step 1: Download the Models
 
@@ -482,3 +465,21 @@ For more samples and demos, you can visit the samples and demos pages below. You
 [Samples](../OV_Runtime_UG/Samples_Overview.md)
 
 [Demos](@ref omz_demos)
+
+To build OpenVINO demos:
+
+@sphinxdirective
+
+.. tab:: Linux
+
+   Go to :doc:`Open Model Zoo Demos page <omz_demos>` and see the "Build the Demo Applications on Linux" section.
+
+.. tab:: Windows
+
+   Go to :doc:`Open Model Zoo Demos page <omz_demos>` and see the "Build the Demo Applications on Microsoft Windows OS" section.
+
+.. tab:: macOS
+
+   Go to :doc:`Open Model Zoo Demos page <omz_demos>` and see the "Build the Demo Applications on Linux*" section. You can use the requirements from "To build OpenVINO samples" above and adapt the Linux build steps for macOS.
+
+@endsphinxdirective
