@@ -266,10 +266,7 @@ The command with most placeholders filled in and FP16 precision:
 
 ## <a name="download-media"></a> Step 3: Download a Video or a Photo as Media
 
-Many sources are available from which you can download video media to use the code samples and demo applications. Possibilities include:
-
-- [Pexels](https://pexels.com)
-- [Google Images](https://images.google.com)
+Most of the samples require you to provide an input image or video to run the model on. You can download a test video or image online from sites like [Pexels](https://pexels.com) or [Google Images](https://images.google.com).
 
 As an alternative, the Intel® Distribution of OpenVINO™ toolkit includes several sample images and videos that you can use for running code samples and demo applications:
 
