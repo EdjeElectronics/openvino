@@ -1,47 +1,45 @@
 # Basic OpenVINO™ Workflow {#openvino_docs_get_started_get_started_demos}
 
-This guide will walk you through a basic workflow for Intel® Distribution of OpenVINO™ toolkit, including how to use code samples.
+The guide walks through a basic workflow for building and running C++ code samples in OpenVINO. This guide works for C++ samples only and is not intended for use with the Python samples.
 
-This guide assumes you have completed all the installation and preparation steps. If you have not, check out the <a href="prerequisites">Prerequisites</a> section to install OpenVINO Runtime, install OpenVINO Development Tools, or build samples and demos.
+To work through this guide, you must first install OpenVINO Runtime, install OpenVINO Development tools, and build the sample applications. See the <a href="#prerequisites">Prerequisites</a> section for instructions on how to do so.
 
-After that, you will perform the following steps:
+Once the prerequisites have been installed, perform the following steps:
 
 1. <a href="#download-models">Use Model Downloader to download a suitable model.</a>
 2. <a href="#convert-models-to-intermediate-representation">Convert the model with Model Optimizer.</a> 
 3. <a href="#download-media">Download media files to run inference.</a>
-4. <a href="#run-image-classification">Run inference on a sample and see the results.</a> The following code sample is used as an example:
-    - <a href="#run-image-classification">Image Classification Code Sample</a>
+4. <a href="#run-image-classification">Run inference with the Image Classification sample application and see the results.</a>
+
 
 ## <a name="prerequisites"></a>Prerequisites
 
 ### Install OpenVINO Runtime
 
-If you have not yet installed and configured the toolkit, see the following guides:
+If you have not yet installed and configured OpenVINO Runtime, see the following guides:
 
 @sphinxdirective
 .. tab:: Linux
 
-   See :doc:`Install Intel® Distribution of OpenVINO™ toolkit for Linux <openvino_docs_install_guides_installing_openvino_linux_header>`
+   See :doc:`Install OpenVINO Runtime for Linux <openvino_docs_install_guides_installing_openvino_linux_header>`. Running these samples requires OpenCV, so be sure to install OpenCV when you get to the Install Additional Components step.
 
 .. tab:: Windows
 
-   See :doc:`Install Intel® Distribution of OpenVINO™ toolkit for Windows <openvino_docs_install_guides_installing_openvino_windows_header>`
+   See :doc:`Install OpenVINO Runtime for Windows <openvino_docs_install_guides_installing_openvino_windows_header>` Running these samples requires OpenCV, so be sure to install OpenCV when you get to the Install Additional Components step.
 
 .. tab:: macOS
 
-   See :doc:`Install Intel® Distribution of OpenVINO™ toolkit for macOS <openvino_docs_install_guides_installing_openvino_macos_header>`
+   See :doc:`Install OpenVINO Runtime for macOS <openvino_docs_install_guides_installing_openvino_macos_header>` Running these samples requires OpenCV, so be sure to install OpenCV when you get to the Install Additional Components step.
   
 @endsphinxdirective
 
 ### Install OpenVINO Development Tools
 
-To install OpenVINO Development Tools for working with Caffe models, use the following command: 
+To install OpenVINO Development Tools, visit the <a href="openvino_docs_install_guides_install_dev_tools.html>installation guide</a> and follow the instructions for C++ developers. The code for the example on this page uses the `googlenet-v1` model from the Caffe framework. When you get to Step 4 of the installation guide, issue the following command to install OpenVINO with the Caffe requirements:
 
 ``` sh
    pip install openvino-dev[caffe]
 ```
-
-For more detailed steps, see [Install OpenVINO™ Development Tools](../install_guides/installing-model-dev-tools.md)
 
 ### Build Samples and Demos
 
