@@ -48,8 +48,26 @@
    <h3><a name="get-started-tutorials">3. Learn OpenVINO</a></h3>
    
    <p>OpenVINO provides a wide array of examples and documentation showing how to work with models, run inference, and deploy applications. Step through the sections below to learn the basics of OpenVINO and explore its advanced optimization features. Visit <a href="documentation.html">OpenVINO’s documentation</a> for further details on how to use its features and tools.</p>
+   
+   <p>OpenVINO users of all experience levels can try <a href="https://www.intel.com/content/www/us/en/developer/tools/devcloud/edge/overview.html">Intel Dev Cloud</a>, a free web-based service for developing, testing, and running OpenVINO applications for free on an online cluster of the latest Intel hardware.</p>
  
+   <h4>(a name="openvino-basics">OpenVINO Basics</a></h3>
+   <p>Learn the basics of working with models and inference in OpenVINO. Begin with “Hello World” Interactive Tutorials that show how to prepare models, run inference, and retrieve results using the OpenVINO API. Then, explore other examples from the Open Model Zoo and OpenVINO Code Samples that can be adapted for your own application.</p>
+   
    <div id="GSG_nextstepchoice">
+      
+      <h4><a href="tutorials.html"><h4>Interactive Tutorials - Jupyter Notebooks</h4>
+         <p>Start with interactive Python tutorials that show the basics of model inferencing, the OpenVINO API, how to convert models to OpenVINO format, and more.</p>
+         <ul>
+            <li><a href="001-hello-world-with-output.html">Hello Image Classification</a> - Load an image classification model in OpenVINO and use it to apply a label to an image</li>
+            <li><a href="002-openvino-api-with-output.html">OpenVINO Runtime API Tutorial</a> - Learn the basic Python API for working with models in OpenVINO</li>
+            <li><a href="101-tensorflow-to-openvino-with-output.html">Convert TensorFlow Models to OpenVINO</a></li>
+            <li><a href="102-pytorch-onnx-to-openvino-with-output.html">Convert PyTorch Models to OpenVINO</a></li>
+         </ul>
+         
+         
+         
+     
      <a href="tutorials.html" >
         <h4>Interactive Tutorials - Jupyter Notebooks (Python) </h4>
         <p>Learn from a choice of interactive Python tutorials targeting typical OpenVINO use cases.</p>
