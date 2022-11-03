@@ -51,48 +51,30 @@
    
    <p>OpenVINO users of all experience levels can try <a href="https://www.intel.com/content/www/us/en/developer/tools/devcloud/edge/overview.html">Intel Dev Cloud</a>, a free web-based service for developing, testing, and running OpenVINO applications for free on an online cluster of the latest Intel hardware.</p>
  
-   <h4>(a name="openvino-basics">OpenVINO Basics</a></h3>
+   <h4><a name="openvino-basics">OpenVINO Basics</a></h4>
    <p>Learn the basics of working with models and inference in OpenVINO. Begin with “Hello World” Interactive Tutorials that show how to prepare models, run inference, and retrieve results using the OpenVINO API. Then, explore other examples from the Open Model Zoo and OpenVINO Code Samples that can be adapted for your own application.</p>
    
    <div id="GSG_nextstepchoice">
       
-      <h4><a href="tutorials.html"><h4>Interactive Tutorials - Jupyter Notebooks</h4>
-         <p>Start with interactive Python tutorials that show the basics of model inferencing, the OpenVINO API, how to convert models to OpenVINO format, and more.</p>
-         <ul>
-            <li><a href="001-hello-world-with-output.html">Hello Image Classification</a> - Load an image classification model in OpenVINO and use it to apply a label to an image</li>
-            <li><a href="002-openvino-api-with-output.html">OpenVINO Runtime API Tutorial</a> - Learn the basic Python API for working with models in OpenVINO</li>
-            <li><a href="101-tensorflow-to-openvino-with-output.html">Convert TensorFlow Models to OpenVINO</a></li>
-            <li><a href="102-pytorch-onnx-to-openvino-with-output.html">Convert PyTorch Models to OpenVINO</a></li>
-         </ul>
-         
-         
-         
-     
-     <a href="tutorials.html" >
-        <h4>Interactive Tutorials - Jupyter Notebooks (Python) </h4>
-        <p>Learn from a choice of interactive Python tutorials targeting typical OpenVINO use cases.</p>
-     </a> 		
-     <a href="openvino_docs_OV_UG_Samples_Overview.html" >
-        <h4>OpenVINO Samples	</h4>
-        <p>See ready-made applications explaining OpenVINO features and various use-cases.		</p>
-     </a> 
-     <a href="openvino_inference_engine_ie_bridges_python_sample_speech_sample_README.html" >
-        <h4>Reference Implementation For Speech Recognition Apps (Python)</h4>
-        <p>Use a speech recognition demo and Kaldi model conversion tool as reference. </p>
-     </a>
-     <a href="openvino_inference_engine_samples_speech_sample_README.html" >
-        <h4>Reference Implementation For Speech Recognition Apps (C++)</h4>
-        <p>Use a speech recognition demo and Kaldi model conversion tool as reference. </p>
-     </a>
-     <a href="omz_demos.html" >
-        <h4>Open Model Zoo Demo Applications</h4>
-        <p>See Open Model Zoo demo applications to use robust application templates for implementing specific deep learning scenarios. </p>
-     </a>
-     <a href="http://devcloud.intel.com/edge/" >
-        <h4>Intel® DevCloud 	</h4>
-        <p>Develop, test, and run your OpenVINO solution for free on a cluster of the latest Intel® hardware. </p>
-     </a> 
+   <h4><a href="tutorials.html">Interactive Tutorials - Jupyter Notebooks</a></h4>
+      <p>Start with interactive Python tutorials that show the basics of model inferencing, the OpenVINO API, how to convert models to OpenVINO format, and more.</p>
+      <ul>
+         <li><a href="001-hello-world-with-output.html">Hello Image Classification</a> - Load an image classification model in OpenVINO and use it to apply a label to an image</li>
+         <li><a href="002-openvino-api-with-output.html">OpenVINO Runtime API Tutorial</a> - Learn the basic Python API for working with models in OpenVINO</li>
+         <li><a href="101-tensorflow-to-openvino-with-output.html">Convert TensorFlow Models to OpenVINO</a></li>
+         <li><a href="102-pytorch-onnx-to-openvino-with-output.html">Convert PyTorch Models to OpenVINO</a></li>
+      </ul>
+
+   <h4><a href="openvino_docs_OV_UG_Samples_Overview.html">OpenVINO Code Samples</a></h4>
+      <p>View sample code for various C++ and Python applications that can be used as a starting point for your own application. For C++ developers, step through the <a href="openvino_docs_get_started_get_started_demos.html">Basic OpenVINO Workflow</a> to learn how to build and run an image classification program that uses OpenVINO’s C++ API.</p>
+      
+   <h4><a href="openvino_docs_OV_UG_Integrate_OV_with_your_application.html">Integrate OpenVINO With Your Application</a></h4>
+      <p>Learn how to use the OpenVINO API to implement an inference pipeline in your application.</p>
+      
    </div>
+   
+    
+
    <div style="clear:both;"> </div>
 
 @endsphinxdirective
