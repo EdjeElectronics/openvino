@@ -73,7 +73,44 @@
       
    </div>
    
+   <h4><a name="openvino-advanced-features">OpenVINO Advanced Features</a></h4>
+   <p>OpenVINO provides features to improve your model’s performance, optimize your runtime, maximize your application’s throughput on target hardware, and much more. Visit the links below to learn more about these features and how to use them.</p>
+   
+   <div id="GSG_nextstepchoice">
+   
+   <h4>Model Compression and Quantization</h4>
+      <p>Use OpenVINO’s model compression tools to reduce your model’s latency and memory footprint while maintaining good accuracy.</p>
+      <ul>
+         <li>Tutorial - <a href="111-detection-quantization-with-output.html">OpenVINO Post-Training Model Quantization</a></li>
+         <li>Tutorial - <a href="305-tensorflow-quantization-aware-training-with-output.html">Quantization-Aware Training in TensorFlow with OpenVINO NNCF</a></li>
+         <li>Tutorial - <a href="302-pytorch-quantization-aware-training-with-output.html">Quantization-Aware Training in PyTorch with NNCF</a></li>
+         <li><a href="openvino_docs_model_optimization_guide.html">Model Optimization Guide</a></li>
+      </ul>
     
+   <h4>Automated Device Configuration</h4>
+      <p>OpenVINO’s hardware device configuration features enable you to write an application once and deploy it anywhere with optimal performance.</p>
+      <ul>
+         <li>Increase application portability with <a href="openvino_docs_OV_UG_supported_plugins_AUTO.html">Automatic Device Selection (AUTO)</a></li>
+         <li>Perform parallel inference across processors with <a href="openvino_docs_OV_UG_Running_on_multiple_devices.html">Multi-Device Execution (MULTI)</a></li>
+         <li>Efficiently split inference between hardware cores with <a href="openvino_docs_OV_UG_Hetero_execution.html">Heterogeneous Execution (HETERO)</a></li>
+      </ul>
+
+   <h4>Flexible Model and Pipeline Configuration</h4>
+      <p>Pipeline and model configuration features in OpenVINO Runtime allow you to easily optimize your application’s performance on any target hardware.</p>
+      <ul>
+         <li><a href="openvino_docs_OV_UG_Automatic_Batching.html">Automatic Batching</a> performs on-the-fly grouping of inference requests to maximize utilization of the target hardware’s memory and processing cores.</li>
+         <li><a href="openvino_docs_OV_UG_Performance_Hints.html">Performance Hints</a> automatically adjust runtime parameters to prioritize for low latency or high throughput</li>
+         <li><a href="openvino_docs_OV_UG_DynamicShapes.html">Dynamic Shapes</a> reshapes models to accept arbitrarily-sized inputs, increasing flexibility for applications that encounter different data shapes</li>
+         <li><a href="openvino_inference_engine_tools_benchmark_tool_README.html">Benchmark Tool</a> characterizes model performance in various hardware and pipeline configurations</li>
+      </ul>
+      
+   </div>
+   
+   <h4><a name="additional-resources">Additional Resources</a></h4>
+      <ul>
+         <li><a href="https://www.intel.com/content/www/us/en/internet-of-things/ai-in-production/success-stories.html">OpenVINO Success Stories</a> - See how Intel partners have successfully used OpenVINO in production applications to solve real-world problems.</li>
+         <li>OpenVINO Supported Models (coming soon!) - Check which models OpenVINO supports on your hardware</li>
+         <li><a href="openvino_docs_performance_benchmarks.html">Performance Benchmarks</a> - View results from benchmarking models with OpenVINO on Intel hardware</li>
 
    <div style="clear:both;"> </div>
 
